@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C2A2D75C-E02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WinForm", "WinForm\Demo.WinForm\Demo.WinForm.csproj", "{23E40180-BB61-4BEA-AF28-655DE1B49358}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{66F3A4DB-DE54-4016-A511-0C4462230E56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23E40180-BB61-4BEA-AF28-655DE1B49358} = {66F3A4DB-DE54-4016-A511-0C4462230E56}
+		{66F3A4DB-DE54-4016-A511-0C4462230E56} = {D9FE0738-8A68-4450-BC6F-A4951D05FAD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8EB6581-9E1A-4431-AED6-979EA3504AEE}
